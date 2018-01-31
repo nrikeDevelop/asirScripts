@@ -1,0 +1,25 @@
+#!/bin/sh
+
+COLOR='\033[0;31m'
+NC='\033[0m' # No Color
+echo
+echo
+echo "#######  1ª Ejercicio Script"
+echo "######Lectura de argumentos"
+echo
+echo "Todos los argumentos >>  ${COLOR} $*  ${NC}"
+echo
+echo "Número de argumentos >>  ${COLOR} $# ${NC}"
+echo
+echo "Nombre del script >>  ${COLOR} $0 ${NC}"
+echo 
+echo "Total de los 5 argumentos"
+echo "Argumento >>  ${COLOR} $1 ${NC}"
+echo "Argumento >>  ${COLOR} $2 ${NC}"
+echo "Argumento >>  ${COLOR} $3 ${NC}"
+echo "Argumento >>  ${COLOR} $4 ${NC}"
+echo "Argumento >>  ${COLOR} $5 ${NC}"
+echo 
+echo
+echo "#####github : ${COLOR} https://github.com/nrikeDevelop  ${NC}"
+
